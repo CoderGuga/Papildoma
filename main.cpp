@@ -11,8 +11,8 @@
 std::string normalizeWord(const std::string& word) {
     std::string result;
     for (char ch : word) {
-        if (std::isalpha(ch) || std::isdigit(ch)) {
-            result += std::tolower(ch);
+        if (std::isalpha(static_cast<unsigned char>(ch)) || std::isdigit(static_cast<unsigned char>(ch))) {
+        result += std::tolower(static_cast<unsigned char>(ch));
         }
     }
     return result;
