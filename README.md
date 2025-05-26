@@ -71,8 +71,8 @@ Patikrinkite, ar įrankiai įdiegti:
 
   Windows:
 
-    ./MyExecutable.exe
+    ./Papildoma.exe
 
   Linux / macOS:
   
-    ./MyExecutable
+    ./Papildoma
